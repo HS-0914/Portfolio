@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { motion } from "motion/react";
 
 const HeroSection: React.FC = () => {
   return (
@@ -6,7 +7,13 @@ const HeroSection: React.FC = () => {
       id="about"
       className="min-h-[calc(100vh-77px)] flex flex-col md:flex-row items-center justify-center px-6 py-20 bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
     >
-      <div className="max-w-2xl text-center md:text-left">
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+        className="max-w-2xl text-center md:text-left"
+      >
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6">
           안녕하세요,
           <br />
@@ -27,12 +34,18 @@ const HeroSection: React.FC = () => {
             <a href="mailto:gudtn2238@gmail.com">✉️ 이메일 보내기</a>
           </Button>
         </div>
-      </div>
+      </motion.div>
 
       {/* 이미지 또는 일러스트 */}
-      <div className="mt-12 md:mt-0 md:ml-16 w-64 h-64 bg-gray-100 dark:bg-gray-800 rounded-2xl items-center justify-center shadow-lg hidden md:flex">
-        <span className="text-9xl">👨‍💻</span>
-      </div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7, delay: 0.1 }}
+        viewport={{ once: true }}
+        className="mt-12 md:mt-0 md:ml-16 w-64 h-64 bg-gray-100 dark:bg-gray-800 rounded-2xl items-center justify-center shadow-lg  hidden md:flex"
+      >
+        <span className="text-9xl">🤗</span>
+      </motion.div>
     </section>
   );
 };
