@@ -32,7 +32,7 @@ export const projects: Project[] = [
     period: "2025.05.07 - 2025.05.16",
     overview:
       "KolorPicker(Kosta + Color Picker)는 C# WinForms로 개발된 유틸리티 앱으로, 색상 추출과 팔레트 관리를 제공합니다.",
-    descriptionPath: "/readme/KolorPicker_README.md",
+    descriptionPath: "/Portfolio/readme/KolorPicker_README.md",
     techStack: ["C#", "Windows Forms (.NET Framework)"],
     github: "https://github.com/HS-0914/KolorPicker",
     demo: "https://github.com/HS-0914/KolorPicker/releases",
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     period: "2025.05.07 - 2025.05.16",
     overview:
       "이전 프로젝트(ChessJS)에서 불편했던 코드 구조를 React와 TypeScript를 통해 개선하고 다른 사람들과 1:1 대결 및 경기 기록 저장 기능을 추가한 프로젝트입니다.",
-    descriptionPath: "/readme/ChessTS_README.md",
+    descriptionPath: "/Portfolio/readme/ChessTS_README.md",
     techStack: ["React", "Typescript", "Socket.IO", "TailwindCSS"],
     github: "https://github.com/HS-0914/ChessTS",
     demo: "https://hs-0914.github.io/ChessTS",

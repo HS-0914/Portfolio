@@ -54,7 +54,11 @@ const ProjectCard: React.FC<ProjectProps> = ({
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/github.svg" alt="GitHub" className="w-4 h-4" />
+                  <img
+                    src="/Portfolio/github.svg"
+                    alt="GitHub"
+                    className="w-4 h-4"
+                  />
                   GitHub
                 </a>
               </Button>

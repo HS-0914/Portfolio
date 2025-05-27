@@ -41,7 +41,11 @@ const HeroSection: React.FC = () => {
               rel="noopener noreferrer"
               className="text-[17px]"
             >
-              <img src="/github.svg" alt="GitHub" className="w-4 h-4" />
+              <img
+                src="/Portfolio/github.svg"
+                alt="GitHub"
+                className="w-4 h-4"
+              />
               GitHub
             </a>
           </Button>

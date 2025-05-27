@@ -5,6 +5,8 @@ const Footer = () => {
         © {new Date().getFullYear()}
         {". "}
         <span className="text-teal-500 font-semibold">손형수</span>
+        <br />
+        Email : gudtn2238@gmail.com
       </p>
     </footer>
   );
