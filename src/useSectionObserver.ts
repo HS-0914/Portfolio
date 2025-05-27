@@ -12,7 +12,7 @@ export const useSectionObserver = (sectionIds: string[]) => {
           }
         });
       },
-      { rootMargin: "-50% 0px -40% 0px", threshold: 0.1 }
+      { rootMargin: "-50% 0px -40% 0px", threshold: 0.01 }
     );
 
     sectionIds.forEach((id) => {

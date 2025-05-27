@@ -1,11 +1,11 @@
 import "./App.css";
 import { sectionIds } from "./data/section-data";
-import Footer from "./Footer";
-import Header from "./Header";
-import HeroSection from "./HeroSection";
-import ProjectSection from "./ProjectSection";
+import Footer from "./layout/Footer";
+import Header from "./layout/Header";
+import HeroSection from "./sections/HeroSection";
+import ProjectSection from "./sections/ProjectSection";
 // import ProjectSection2 from "./ProjectSection2";
-import SkillSection from "./SkillSection";
+import SkillSection from "./sections/SkillSection";
 import { useSectionObserver } from "./useSectionObserver";
 
 function App() {
