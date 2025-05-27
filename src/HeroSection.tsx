@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.7, delay: 0.1 }}
+        transition={{ duration: 0.6, delay: 0.1 }}
         viewport={{ once: true }}
         className="mt-12 md:mt-0 md:ml-16 w-64 h-64 bg-gray-100 dark:bg-gray-800 rounded-2xl items-center justify-center shadow-lg  hidden md:flex"
       >

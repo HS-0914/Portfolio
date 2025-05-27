@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }: HeaderProps) => {
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
         {/* 로고 */}
         <a
-          href="#"
+          href="/"
           className="text-3xl font-bold text-teal-500 dark:text-white"
         >
           <span className="">HS</span> Portfolio

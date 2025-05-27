@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 import ProjectSection from "./ProjectSection";
+// import ProjectSection2 from "./ProjectSection2";
 import SkillSection from "./SkillSection";
 import { useSectionObserver } from "./useSectionObserver";
 

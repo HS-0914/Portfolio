@@ -39,7 +39,7 @@ const SkillSection = () => {
                 {items.map((skill) => (
                   <li
                     key={skill}
-                    className="bg-primary/10 text-primary dark:bg-gray-900 px-3 py-2 rounded text-sm font-medium"
+                    className="border bg-primary/10 text-primary dark:bg-gray-900/60 px-3 py-2 rounded text-base font-medium"
                   >
                     {skill}
                   </li>
