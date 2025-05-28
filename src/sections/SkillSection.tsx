@@ -5,6 +5,7 @@ const skills = {
   Frameworks: ["React", "Node.js", "Nest.js"],
   Styling: ["TailwindCSS", "shadcn/ui", "CSS"],
   Tools: ["Git", "VSCode"],
+  Database: ["MySQL", "PostgreSQL"],
 };
 
 const SkillSection = () => {
