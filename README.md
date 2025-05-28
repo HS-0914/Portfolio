@@ -17,6 +17,24 @@
 
 이번 프로젝트를 통해 React의 핵심 개념인 컴포넌트 기반의 아키텍처, 상태 관리, 그리고 TSX를 활용한 직관적인 UI 개발 방식을 경험할 수 있었습니다. React의 가상 DOM을 이용한 효율적인 렌더링 방식을 배우고, useState와 useEffect 같은 훅을 사용하여 상태 관리와 생명 주기 관리를 이해할 수 있었습니다. 또한 React와 TypeScript를 함께 사용하여 코드의 가독성과 안정성을 높이고, 유지보수 및 확장성 면에서도 강력한 장점을 확인할 수 있었습니다.
 
+## 🖼️ 화면 구성
+
+- 화면 구성
+  
+![포트폴리오_화면구성](https://github.com/user-attachments/assets/ae5e11f9-35b2-41c7-860a-01f111fc12b5)
+
+&nbsp;
+
+- 프로젝트 상세보기
+
+![포트폴리오_상세보기](https://github.com/user-attachments/assets/2dd2052f-edce-4f0e-915e-e0b45f8a57a2)
+
+&nbsp;
+
+- 다크모드
+
+<img src="https://github.com/user-attachments/assets/dfba85c0-a043-4d34-b155-60ef8c57cffd" width="800" />
+
 ## 🛠️ 사용 기술
 
 - **React & TypeScript**: 컴포넌트 기반의 구조, 타입 안정성 제공
