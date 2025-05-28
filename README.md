@@ -58,7 +58,7 @@ src
 - GitHub Pages 자동 배포 (GitHub Actions 이용)
 - URL: [포트폴리오 웹사이트](https://hs-0914.github.io/Portfolio)
 
-## 📌 실행 방법
+## 🏃‍➡️ 실행 방법
 
 ### 개발 환경 설치
 
