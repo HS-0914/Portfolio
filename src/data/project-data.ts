@@ -23,7 +23,7 @@ export const projects: Project[] = [
     techStack: ["React", "TypeScript", "TailwindCSS", "shadcn/ui"],
     github: "https://github.com/HS-0914/Portfolio",
     image:
-      "https://github.com/user-attachments/assets/ee1f27b0-7020-42b2-89f8-84562a0a9478",
+      "https://github.com/user-attachments/assets/ae5e11f9-35b2-41c7-860a-01f111fc12b5",
   },
   {
     id: "KolorPicker",
