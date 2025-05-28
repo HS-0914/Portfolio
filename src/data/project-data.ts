@@ -19,7 +19,7 @@ export const projects: Project[] = [
     period: "2025.05.16 - 2025.05.28",
     overview:
       "React와 TailwindCSS를 사용하여 만든 개인 포트폴리오 웹사이트입니다. 반응형, 다크모드, 프로젝트 소개 등을 포함합니다.",
-    descriptionPath: "",
+    descriptionPath: "/Portfolio/readme/Portfolio_README.md",
     techStack: ["React", "TypeScript", "TailwindCSS", "shadcn/ui"],
     github: "https://github.com/HS-0914/Portfolio",
     image:
