@@ -8,13 +8,10 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = ({ activeSection }: HeaderProps) => {
   return (
-    <header className="sticky top-0 z-50 bg-gray-100/10 dark:bg-gray-900/10 backdrop-blur border-b border-gray-200 dark:border-gray-700">
+    <header className="fixed w-full bg-gray-100/10 dark:bg-gray-900/10 backdrop-blur border-b border-gray-200 dark:border-gray-700">
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
         {/* 로고 */}
-        <a
-          href="/Portfolio/"
-          className="text-3xl font-bold text-teal-500 dark:text-white"
-        >
+        <a href="/Portfolio/" className="text-3xl font-bold text-teal-500">
           <span className="">HS</span> Portfolio
         </a>
 
