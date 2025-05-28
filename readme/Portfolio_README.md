@@ -19,7 +19,20 @@
 
 ## 🖼️ 화면 구성
 
-- 홈 화면
+- 화면 구성
+  
+![포트폴리오_화면구성](https://github.com/user-attachments/assets/ae5e11f9-35b2-41c7-860a-01f111fc12b5)
 
-<img src="https://github.com/user-attachments/assets/ee1f27b0-7020-42b2-89f8-84562a0a9478" width="800" />
+&nbsp;
 
+- 프로젝트 상세보기
+
+![포트폴리오_상세보기](https://github.com/user-attachments/assets/2dd2052f-edce-4f0e-915e-e0b45f8a57a2)
+
+&nbsp;
+
+- 다크모드
+
+<img src="https://github.com/user-attachments/assets/dfba85c0-a043-4d34-b155-60ef8c57cffd" width="800" />
+
+---
