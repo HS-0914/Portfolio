@@ -15,9 +15,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "Portfolio",
-    title: "포트폴리오 웹사이트",
+    title: "📜 포트폴리오 웹사이트",
     period: "2025.05.16 - 2025.05.28",
-    teamSize: 1,
     overview:
       "React와 TailwindCSS를 사용하여 만든 개인 포트폴리오 웹사이트입니다. 반응형, 다크모드, 프로젝트 소개 등을 포함합니다.",
     descriptionPath: "",
@@ -42,7 +41,7 @@ export const projects: Project[] = [
   {
     id: "ChessTS",
     title: "♟️ ChessTS - 체스 게임 & 퍼즐 플레이 웹앱 ",
-    period: "2025.05.07 - 2025.05.16",
+    period: "2025.04.14 - 2025.04.23",
     overview:
       "이전 프로젝트(ChessJS)에서 불편했던 코드 구조를 React와 TypeScript를 통해 개선하고 다른 사람들과 1:1 대결 및 경기 기록 저장 기능을 추가한 프로젝트입니다.",
     descriptionPath: "/Portfolio/readme/ChessTS_README.md",

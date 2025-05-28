@@ -6,7 +6,7 @@ const Footer = () => {
         {". "}
         <span className="text-teal-500 font-semibold">손형수</span>
         <br />
-        Email : gudtn2238@gmail.com
+        이메일 : gudtn2238@gmail.com
       </p>
     </footer>
   );

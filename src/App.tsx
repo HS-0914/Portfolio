@@ -4,9 +4,8 @@ import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import HeroSection from "./sections/HeroSection";
 import ProjectSection from "./sections/ProjectSection";
-// import ProjectSection2 from "./ProjectSection2";
 import SkillSection from "./sections/SkillSection";
-import { useSectionObserver } from "./useSectionObserver";
+import { useSectionObserver } from "./hooks/useSectionObserver";
 
 function App() {
   const activeSection = useSectionObserver(sectionIds);
