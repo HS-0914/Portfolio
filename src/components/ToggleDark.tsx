@@ -23,7 +23,12 @@ const ToggleDark: React.FC = () => {
     document.documentElement.classList.toggle("dark", next === "dark");
   };
   return (
-    <Button onClick={toggleTheme} variant="ghost" size="icon">
+    <Button
+      onClick={toggleTheme}
+      variant="ghost"
+      size="icon"
+      className="cursor-pointer"
+    >
       {isDark ? (
         <SunIcon className="w-5 h-5 text-yellow-400" />
       ) : (

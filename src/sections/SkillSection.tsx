@@ -3,8 +3,8 @@ import { motion } from "motion/react";
 const skills = {
   Languages: ["TypeScript", "Python", "C#"],
   Frameworks: ["React", "Node.js", "Nest.js"],
-  Styling: ["TailwindCSS", "shadcn/ui", "CSS"],
-  Tools: ["Git", "VSCode"],
+  Styling: ["Tailwind CSS", "shadcn", "CSS"],
+  Tools: ["GitHub", "VSCode"],
   Database: ["MySQL", "PostgreSQL"],
 };
 
@@ -42,6 +42,15 @@ const SkillSection = () => {
                     key={skill}
                     className="border bg-primary/10 text-primary dark:bg-gray-900/60 px-3 py-2 rounded text-base font-medium"
                   >
+                    <img
+                      src={`/Portfolio/svgs/${encodeURIComponent(skill)}.svg`}
+                      alt={skill}
+                      className={`w-4 h-4 inline mr-2 ${
+                        skill === "GitHub" || skill === "shadcn"
+                          ? "dark:invert"
+                          : ""
+                      }`}
+                    />
                     {skill}
                   </li>
                 ))}

@@ -42,9 +42,9 @@ const HeroSection: React.FC = () => {
               className="text-[17px] px-4 py-2 md:px-6 md:py-3 "
             >
               <img
-                src="/Portfolio/github.svg"
+                src="/Portfolio/svgs/GitHub.svg"
                 alt="GitHub"
-                className="w-4 h-4"
+                className="w-4 h-4 dark:invert"
               />
               GitHub
             </a>

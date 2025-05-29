@@ -17,11 +17,10 @@ const MobileDropdown: React.FC<HeaderProps> = ({
   activeSection,
 }: HeaderProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log(activeSection);
   return (
     <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="ml-3">
+        <Button variant="ghost" size="icon" className="ml-3 cursor-pointer">
           {menuOpen ? (
             <XMarkIcon className="w-6 h-6 text-gray-700 dark:text-white" />
           ) : (

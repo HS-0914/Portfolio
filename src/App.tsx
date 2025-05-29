@@ -9,7 +9,6 @@ import { useSectionObserver } from "./hooks/useSectionObserver";
 
 function App() {
   const activeSection = useSectionObserver(sectionIds);
-
   return (
     <div className="antialiased">
       <Header activeSection={activeSection} />

@@ -48,16 +48,16 @@ const ProjectCard: React.FC<ProjectProps> = ({
           )}
           <div className="flex gap-3 pt-4">
             {project.github && (
-              <Button asChild size="default" variant="outline">
+              <Button asChild size="default">
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/Portfolio/github.svg"
+                    src="/Portfolio/svgs/GitHub.svg"
                     alt="GitHub"
-                    className="w-4 h-4"
+                    className="w-4 h-4 invert dark:invert-0"
                   />
                   GitHub
                 </a>
@@ -69,6 +69,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="bg-teal-500 hover:bg-teal-600"
                 >
                   Demo
                 </a>
