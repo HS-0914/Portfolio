@@ -48,7 +48,14 @@ const ProjectCard: React.FC<ProjectProps> = ({
           )}
           <div className="flex gap-3 pt-4">
             {project.github && (
-              <Button asChild size="default">
+              <Button
+                asChild
+                size="default"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSelectedId(null);
+                }}
+              >
                 <a
                   href={project.github}
                   target="_blank"
@@ -64,7 +71,14 @@ const ProjectCard: React.FC<ProjectProps> = ({
               </Button>
             )}
             {project.demo && (
-              <Button asChild size="default">
+              <Button
+                asChild
+                size="default"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSelectedId(null);
+                }}
+              >
                 <a
                   href={project.demo}
                   target="_blank"
