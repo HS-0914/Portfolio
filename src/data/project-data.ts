@@ -84,4 +84,30 @@ export const projects: Project[] = [
     image:
       "https://github.com/user-attachments/assets/d6ed6696-6759-4b8a-82a0-5634a615a897",
   },
+  {
+    id: "Overwatch_clone",
+    title: "🕹️ 오버워치 홈페이지 클론",
+    period: "2025.03.31 - 2025.04.09",
+    overview:
+      "HTML과 CSS를 활용하여 오버워치 공식 홈페이지의 디자인을 따라한 웹 페이지입니다.",
+    descriptionPath: "/Portfolio/readme/Overwatch_clone_README.md",
+    techStack: ["HTML", "JavaScript", "CSS"],
+    github: "https://github.com/HS-0914/Overwatch_clone",
+    demo: "https://hs-0914.github.io/Overwatch_clone/",
+    image:
+      "https://github.com/user-attachments/assets/3a867305-6700-4429-9fc5-2826292153fb",
+  },
+  {
+    id: "Overwatch_clone",
+    title: "🕹️ 오버워치 홈페이지 클론",
+    period: "2025.03.31 - 2025.04.09",
+    overview:
+      "HTML과 CSS를 활용하여 오버워치 공식 홈페이지의 디자인을 따라한 웹 페이지입니다.",
+    descriptionPath: "/Portfolio/readme/Overwatch_clone_README.md",
+    techStack: ["HTML", "JavaScript", "CSS"],
+    github: "https://github.com/HS-0914/Overwatch_clone",
+    demo: "https://hs-0914.github.io/Overwatch_clone/",
+    image:
+      "https://github.com/user-attachments/assets/3a867305-6700-4429-9fc5-2826292153fb",
+  },
 ];
