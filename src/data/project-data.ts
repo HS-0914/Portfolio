@@ -112,7 +112,7 @@ export const projects: Project[] = [
   {
     id: "Walkway",
     title: "🚍 안양대 졸업작품 - 산책로",
-    period: "2024.08 - 2025.01",
+    period: "2023.04 - 2023.11",
     overview:
       "정류장, 역의 도착시간와 길찾기 정보를 확인할 수 있는 어플리케이션입니다.",
     descriptionPath: "/Portfolio/readme/Walkway_README.md",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
   {
     id: "Chimpanzee",
     title: "🔧 한국폴리텍대학 졸업작품 - 침팬지 가스락",
-    period: "2024.08 - 2025.01",
+    period: "2021.04 - 2021.11",
     overview:
       "정류장, 역의 도착시간와 길찾기 정보를 확인할 수 있는 어플리케이션입니다.",
     descriptionPath: "/Portfolio/readme/Chimpanzee_README.md",
