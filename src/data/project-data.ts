@@ -56,7 +56,7 @@ export const projects: Project[] = [
     github: "https://github.com/HS-0914/H_nawa",
     demo: "https://hs-0914.github.io/H_nawa/",
     image:
-      "https://private-user-images.githubusercontent.com/134225438/439021995-b43b16bb-8058-42f4-89a4-97803e719dae.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg4Mjc0ODAsIm5iZiI6MTc0ODgyNzE4MCwicGF0aCI6Ii8xMzQyMjU0MzgvNDM5MDIxOTk1LWI0M2IxNmJiLTgwNTgtNDJmNC04OWE0LTk3ODAzZTcxOWRhZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwMlQwMTE5NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xOGQ0N2VkMjcyZGQxNmQyNjJmN2E0MzliZGE4OWNjMDg5NjRmYTM2OTMwY2U3YzhkZTI1Nzc3ZjYyNjYyMzJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XWwMRV404du6j_1ay7Z65tjaL7NgbKNIOc1Cq5diDgY",
+      "https://github.com/user-attachments/assets/b43b16bb-8058-42f4-89a4-97803e719dae",
   },
   {
     id: "ChessTS",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
   {
     id: "Overwatch_clone",
     title: "🕹️ 오버워치 홈페이지 클론",
-    period: "2025.03.31 - 2025.04.09",
+    period: "2025.02.28 - 2025.03.11",
     overview:
       "HTML과 CSS를 활용하여 오버워치 공식 홈페이지의 디자인을 따라한 웹 페이지입니다.",
     descriptionPath: "/Portfolio/readme/Overwatch_clone_README.md",
@@ -98,16 +98,15 @@ export const projects: Project[] = [
       "https://github.com/user-attachments/assets/3a867305-6700-4429-9fc5-2826292153fb",
   },
   {
-    id: "Overwatch_clone",
-    title: "🕹️ 오버워치 홈페이지 클론",
-    period: "2025.03.31 - 2025.04.09",
+    id: "Booklend",
+    title: "📚 Nestjs 연습 프로젝트 - 도서 관리 시스템",
+    period: "2024.08 - 2025.01",
     overview:
-      "HTML과 CSS를 활용하여 오버워치 공식 홈페이지의 디자인을 따라한 웹 페이지입니다.",
-    descriptionPath: "/Portfolio/readme/Overwatch_clone_README.md",
-    techStack: ["HTML", "JavaScript", "CSS"],
-    github: "https://github.com/HS-0914/Overwatch_clone",
-    demo: "https://hs-0914.github.io/Overwatch_clone/",
+      "도서를 등록, 검색, 대출, 예약 할 수 있는 API 서비스입니다. NestJS 공부 목적을 위해 프로젝트를 진행하였습니다.",
+    descriptionPath: "/Portfolio/readme/Booklend_README.md",
+    techStack: ["Nest.js", "PostgreSQL", "Redis", "Nginx", "Docker", "EC2"],
+    github: "https://github.com/HS-0914/booklend",
     image:
-      "https://github.com/user-attachments/assets/3a867305-6700-4429-9fc5-2826292153fb",
+      "https://github.com/user-attachments/assets/cd212fae-b2ef-4a98-a444-9421445d6488",
   },
 ];
