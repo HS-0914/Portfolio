@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const skills = {
-  Languages: ["TypeScript", "Python", "C#"],
+  Languages: ["TypeScript", "Python", "Csharp"],
   Frameworks: ["React", "Node.js", "Nest.js"],
   Styling: ["Tailwind CSS", "shadcn", "CSS"],
   Tools: ["GitHub", "VSCode"],
@@ -43,7 +43,7 @@ const SkillSection = () => {
                     className="border bg-primary/10 text-primary dark:bg-gray-900/60 px-3 py-2 rounded text-base font-medium"
                   >
                     <img
-                      src={`/Portfolio/svgs/${encodeURIComponent(skill)}.svg`}
+                      src={`/Portfolio/svgs/${skill}.svg`}
                       alt={skill}
                       className={`w-4 h-4 inline mr-2 ${
                         skill === "GitHub" || skill === "shadcn"
@@ -51,7 +51,7 @@ const SkillSection = () => {
                           : ""
                       }`}
                     />
-                    {skill}
+                    {`${skill.replace("sharp", "#")}`}
                   </li>
                 ))}
               </ul>
