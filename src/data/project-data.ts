@@ -119,7 +119,7 @@ export const projects: Project[] = [
     techStack: ["App Inventor", "express", "JavaScript"],
     github: "https://github.com/HS-0914/Walkway",
     image:
-      "https://img.notionusercontent.com/s3/prod-files-secure%2Fb3967e72-9ce1-4a81-b190-f3fe72a40997%2F7d86298d-914c-43ab-b318-43e3e3c3108e%2F%EA%B7%B8%EB%A6%BC1.jpg/size/w=1920?exp=1749285738&sig=FyndV9HNaPZlYai2YSS5l3zbUqbk0mWa8d3nVnNlEb4&id=1f55097b-7c3a-810a-b382-c1e4da57d4ee&table=block",
+      "https://volcano-agate-3e1.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3967e72-9ce1-4a81-b190-f3fe72a40997%2F7d86298d-914c-43ab-b318-43e3e3c3108e%2F%25EA%25B7%25B8%25EB%25A6%25BC1.jpg?table=block&id=1f55097b-7c3a-810a-b382-c1e4da57d4ee&spaceId=b3967e72-9ce1-4a81-b190-f3fe72a40997&width=270&userId=&cache=v2",
   },
   {
     id: "Chimpanzee",
@@ -131,6 +131,6 @@ export const projects: Project[] = [
     techStack: ["Flutter", "Dart", "express", "JavaScript", "C++"],
     github: "https://github.com/HS-0914/chimpanzee-gaslock",
     image:
-      "https://img.notionusercontent.com/s3/prod-files-secure%2Fb3967e72-9ce1-4a81-b190-f3fe72a40997%2F32296d8f-042e-43ce-9ab5-1e2a1f246cdd%2F%EA%B7%B8%EB%A6%BC2.png/size/w=1920?exp=1749287401&sig=YSnfEM3LhxEMtnLjpftdCI1MIaaqPHBNc8P0dmkKjbg&id=1f55097b-7c3a-8150-85f1-ffe80f4a03cc&table=block",
+      "https://volcano-agate-3e1.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3967e72-9ce1-4a81-b190-f3fe72a40997%2F32296d8f-042e-43ce-9ab5-1e2a1f246cdd%2F%25EA%25B7%25B8%25EB%25A6%25BC2.png?table=block&id=1f55097b-7c3a-8150-85f1-ffe80f4a03cc&spaceId=b3967e72-9ce1-4a81-b190-f3fe72a40997&width=270&userId=&cache=v2",
   },
 ];

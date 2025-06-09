@@ -31,7 +31,7 @@ const ProjectDialog: React.FC<SelectedProps> = ({
         setLoading(false);
         setMarkdown("");
       });
-  }, []);
+  }, [selected.descriptionPath]);
 
   return (
     <DialogContent className="!max-w-3xl mx-auto">
@@ -71,7 +71,7 @@ const ProjectDialog: React.FC<SelectedProps> = ({
               {selected.techStack.map((tech) => (
                 <span
                   key={tech}
-                  className="rounded-sm bg-primary/10 txt-teal-500 px-2 py-1 text-xs font-medium dark:bg-primary/20"
+                  className="rounded-sm bg-primary/10 px-2 py-1 text-xs font-medium dark:bg-primary/20"
                 >
                   {tech}
                 </span>
